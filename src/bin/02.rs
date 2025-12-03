@@ -36,7 +36,7 @@ pub fn part_two(input: &str) -> Option<u64> {
                 if num_string.len() % c != 0 {
                     continue;
                 }
-                let id_chunks: Vec<String> = get_chunks(num_string.clone(), num_string.len()/c);
+                let id_chunks: Vec<String> = get_chunks(num_string.clone(), num_string.len() / c);
                 if id_chunks.iter().all_equal() {
                     invalid_ids.push(num);
                     break;
