@@ -3,7 +3,7 @@ name: Update readme ⭐️ progress
 on:
     # !Please set a different minute than 51 if you enable this!
     schedule:
-        - cron: "30 */24 * * *" # Every 24 hours
+        - cron: "30 */12 * * *" # Every 12 hours
     workflow_dispatch:
 
 jobs:
